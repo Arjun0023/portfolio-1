@@ -25,7 +25,7 @@ const MOTION_CONFIG = {
   exit: { opacity: 0, y: 20 },
   transition: {
     duration: 0.3,
-    ease: 'easeOut',
+
   },
 };
 
@@ -56,7 +56,7 @@ export function SimplifiedChatView({
   // Check if we have meaningful text content (more than just confirmations)
   const hasTextContent = message.content.trim().length > 0;
   const hasTools = currentTool.length > 0;
-  
+
   // If we have tools, minimize text content to avoid redundancy
   const showTextContent = hasTextContent && (!hasTools || message.content.trim().length > 50);
 
