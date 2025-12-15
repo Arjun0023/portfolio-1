@@ -1,0 +1,370 @@
+{
+  "personal": {
+    "name": "Arjun Pawar",
+    "age": 23,
+    "location": "Mumbai, Maharashtra, India",
+    "title": "FullStack AI Engineer | SDE @Fynd",
+    "email": "arjunp0023@gmail.com",
+    "phone": "+91-9822193753",
+    "handle": "@arjun0023",
+    "bio": "Hey 👋\nI'm Arjun, a passionate software engineer specializing in developing scalable and user-centric enterprise software solutions. As a founding engineer at an early-stage AI startup, I've been instrumental in developing and deploying cutting-edge AI-powered SaaS products that streamline operations and boost productivity for businesses. With expertise in React, Python FastAPI, and cloud technologies, I excel at crafting intuitive interfaces and robust backends. Currently building autonomous AI agents at Ratl.ai and working as SDE at Fynd.",
+    "avatar": "/profile.jpg",
+    "fallbackAvatar": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3"
+  },
+  "education": {
+    "current": {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "DY Patil International University",
+      "duration": "2021-2025",
+      "cgpa": "7.1/10.0",
+      "graduationDate": "June 2025"
+    },
+    "achievements": [
+      "Hacktimus 2025 Runner Up (DataPilot AI)",
+      "Codejam 2025 Winner (Splunk Query Assistant)",
+      "AWS Cloud Certified"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Fynd",
+      "position": "SDE - AI Engineer",
+      "type": "Full-time",
+      "duration": "July 2025 - Present",
+      "description": "Currently building agentic flows for an AI Agent to perform large-scale load testing across products. Simulating millions of active users to identify performance bottlenecks and ensure system scalability. Enhancing product reliability by proactively testing under real-world traffic scenarios.",
+      "technologies": [
+        "AI Agents",
+        "LangGraph",
+        "Load Testing",
+        "Performance Engineering",
+        "Scalability"
+      ]
+    },
+    {
+      "company": "Stealth AI Startup (ClickToCRM)",
+      "position": "Full Stack Engineer (Founding Engineer)",
+      "type": "Internship",
+      "duration": "April 2024 - May 2025",
+      "description": "Contributed as a Founding Engineer, built and scaled an AI-powered CRM from the ground up. Developed AI insights engine using RAG techniques and Gemini 2.0 Flash for real-time analysis. Designed vector database systems (ChromaDB, Milvus) for semantic search. Created cross-platform mobile app using React Native. Developed AI Notes using Meta Llama-3.3-70B to summarize sales calls and automate tasks. Built Voice-of-Customer Analytics enabling real-time business insights.",
+      "technologies": [
+        "React",
+        "React Native",
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "ChromaDB",
+        "Milvus",
+        "Gemini 2.0",
+        "Llama-3.3-70B",
+        "RAG",
+        "Mixpanel",
+        "Salesforce API"
+      ]
+    },
+    {
+      "company": "Panora",
+      "position": "Software Developer Intern",
+      "type": "Internship",
+      "duration": "March 2024 - April 2024",
+      "description": "Developed backend for a decentralized exchange platform, enhancing transaction security by 40% and reducing latency. Created a Node.js and MongoDB-based referral system, increasing user acquisition by 35%. Built a Python SDK on the Aptos blockchain, cutting token swap times by 45%.",
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Python",
+        "Aptos",
+        "RESTful APIs",
+        "Blockchain"
+      ]
+    },
+    {
+      "company": "Lamarr",
+      "position": "Frontend Developer Intern",
+      "type": "Internship",
+      "duration": "February 2024 - March 2024",
+      "description": "Built responsive UI components using NextJS, TypeScript, and TailwindCSS, improving mobile engagement by 35%. Integrated PostgreSQL via Supabase, enhancing query performance by 50%. Configured Nginx for three production domains, achieving 99.95% uptime and reducing global latency by 65%.",
+      "technologies": [
+        "NextJS",
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Supabase",
+        "Nginx"
+      ]
+    },
+    {
+      "company": "F13 Technologies",
+      "position": "AWS Cloud Intern",
+      "type": "Internship",
+      "duration": "May 2023 - September 2023",
+      "description": "Worked with AWS EC2, EBS, and S3 to host and develop websites. Successfully migrated non-AWS web applications to AWS infrastructure. Developed a sophisticated Content Recommendation system using AWS Personalize. Gained hands-on experience with over 50 AWS services.",
+      "technologies": [
+        "AWS EC2",
+        "AWS S3",
+        "AWS Personalize",
+        "Cloud Migration",
+        "AWS Services"
+      ]
+    }
+  ],
+  "skills": {
+    "programming": [
+      "TypeScript",
+      "JavaScript",
+      "Python"
+    ],
+    "ml_ai": [
+      "LangGraph",
+      "LangChain",
+      "Gemini 2.0",
+      "Llama",
+      "RAG",
+      "Prompt Engineering",
+      "AI Agents"
+    ],
+    "web_development": [
+      "ReactJs",
+      "React Native",
+      "NextJs",
+      "NodeJs",
+      "ExpressJs",
+      "FastAPI",
+      "Spring Framework"
+    ],
+    "databases": [
+      "MongoDB",
+      "ChromaDB",
+      "Milvus",
+      "PineconeDB",
+      "PostgreSQL"
+    ],
+    "devops_cloud": [
+      "AWS",
+      "Azure",
+      "CloudFlare",
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "GitHub"
+    ],
+    "iot_hardware": [],
+    "tools": [
+      "MixPanel",
+      "PlayWright",
+      "Linux",
+      "Nginx"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Team Leadership",
+      "Innovation",
+      "Collaboration",
+      "Fast Learning"
+    ]
+  },
+  "projects": [
+    {
+      "title": "DataPilot AI",
+      "category": "AI/Data Analytics - Hackathon Winner",
+      "description": "Built an AI-powered data assistant for Fynd sellers, enabling users to ask questions in natural language and receive instant insights. Automatically generated charts and dashboards in real time based on seller data without requiring BI tool expertise. Empowered users to make data-driven decisions through conversation-like interactions. Achieved runner-up position among 200+ participants in Hacktimus 2025.",
+      "techStack": [
+        "Fynd FDK",
+        "FastAPI",
+        "Gemini 2.0 Flash",
+        "Render",
+        "Boltic",
+        "Node.js",
+        "Python"
+      ],
+      "date": "May 2025",
+      "status": "Completed",
+      "featured": true,
+      "achievements": [
+        "Runner-up in Hacktimus 2025",
+        "200+ participants",
+        "20+ teams"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "Splunk Query Assistant",
+      "category": "AI/DevOps - Hackathon Winner",
+      "description": "Created a tool that translates natural language questions into Splunk queries aligned with CIM models. Enabled non-technical users to write complex queries by simply describing what they need in plain English. Used Gemini 2.0 Flash to interpret user input and dynamically construct valid Splunk queries. Packaged and deployed the app using Docker for scalability.",
+      "techStack": [
+        "React",
+        "FastAPI",
+        "Docker",
+        "Gemini 2.0 Flash"
+      ],
+      "date": "April 2025",
+      "status": "Completed",
+      "featured": true,
+      "achievements": [
+        "Winner of Codejam 2025"
+      ],
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "AutolyticsAI: AI-Powered Data Analytics Platform",
+      "category": "AI/Data Analytics",
+      "description": "Developed a no-code analytics solution enabling users without technical expertise to generate meaningful insights from data. Implemented natural language processing technology that converts user questions into Pandas operations for filtering, grouping, and analyzing uploaded CSV and Excel files. Created multilingual support for all Indian regional languages. Applied fine-tuned Gemini 2.0 Flash model to provide automated data summaries and actionable insights. Engineered a visualization system allowing users to represent data as bar charts, pie charts, and tables that can be saved to customizable dashboards.",
+      "techStack": [
+        "React",
+        "Tailwind CSS",
+        "FastAPI",
+        "Pandas",
+        "Python",
+        "Gemini 2.0 Flash",
+        "Prompt Engineering"
+      ],
+      "date": "November 2024 - January 2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "FRAS: Face Recognition Attendance System",
+      "category": "Computer Vision/ML",
+      "description": "Developed a comprehensive facial recognition solution that automates attendance tracking, eliminating manual processes and enhancing administrative efficiency. Implemented OpenCV integration for real-time face detection and recognition capable of operating reliably across diverse environments. Created a machine learning model utilizing Keras with K-Nearest Neighbors classification to accurately identify individuals. Engineered a responsive web interface using Flask to provide administrators with intuitive access to attendance records. Designed the system with scalability considerations to accommodate growing user databases.",
+      "techStack": [
+        "Python",
+        "Flask",
+        "Keras",
+        "OpenCV",
+        "K-Nearest Neighbors"
+      ],
+      "date": "November 2023 - January 2024",
+      "status": "Completed",
+      "featured": true,
+      "links": [],
+      "images": []
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/arjun0023",
+    "github": "https://github.com/Arjun0023",
+    "twitter": "https://x.com/arjun0023",
+    "kaggle": "",
+    "leetcode": "",
+    "portfolio": "https://arjunpawar.tech/"
+  },
+  "internship": {
+    "seeking": false,
+    "duration": "Currently employed at Fynd",
+    "startDate": "N/A",
+    "preferredLocation": "Mumbai / Remote",
+    "focusAreas": [
+      "AI Development",
+      "Full-stack Development",
+      "Autonomous AI Agents",
+      "Scalable Systems"
+    ],
+    "availability": "Currently working full-time",
+    "workStyle": "Fast learner, innovative problem solver, experienced in building production AI systems",
+    "goals": "Continue building cutting-edge AI solutions and autonomous agents that solve real-world problems at scale."
+  },
+  "personality": {
+    "traits": [
+      "innovative",
+      "passionate",
+      "collaborative",
+      "results-driven",
+      "fast-learner"
+    ],
+    "interests": [
+      "AI Agents",
+      "Generative AI",
+      "Full-stack Development",
+      "Scalable Systems",
+      "Hackathons",
+      "Open Source"
+    ],
+    "funFacts": [
+      "Winner of Codejam 2025 with Splunk Query Assistant",
+      "Runner-up in Hacktimus 2025 with DataPilot AI",
+      "Founding engineer at AI startup building CRM from scratch",
+      "Building autonomous AI agents for load testing at Fynd"
+    ],
+    "workingStyle": "I move fast, innovate faster, and love building scalable AI-powered solutions that make real impact",
+    "motivation": "Building technology that empowers businesses through AI and automation"
+  },
+  "resume": {
+    "title": "Arjun Pawar - Resume",
+    "description": "FullStack AI Engineer | SDE @Fynd | Building Autonomous AI Agents",
+    "fileType": "PDF",
+    "lastUpdated": "November 2025",
+    "fileSize": "2.0 MB",
+    "downloadUrl": "https://drive.google.com/uc?export=view&id=1cyVn3MGE1AJhBEk5Xf0Q1WfzeDMZjzDL"
+  },
+  "chatbot": {
+    "name": "Arjun",
+    "personality": "professional, innovative, tech-focused",
+    "tone": "friendly but professional",
+    "language": "english",
+    "responseStyle": "concise and informative",
+    "useEmojis": true,
+    "topics": [
+      "projects",
+      "skills",
+      "experience",
+      "hackathons",
+      "AI",
+      "contact",
+      "achievements"
+    ]
+  },
+  "presetQuestions": {
+    "me": [
+      "Who are you?",
+      "Tell me about yourself",
+      "What's your background?",
+      "What are your passions?",
+      "Where do you work?",
+      "What motivates you?"
+    ],
+    "professional": [
+      "What are your skills?",
+      "Can I see your resume?",
+      "What's your experience?",
+      "Tell me about your work at Fynd",
+      "What did you build at the AI startup?",
+      "What makes you a valuable team member?",
+      "What's your educational background?"
+    ],
+    "projects": [
+      "What projects are you most proud of?",
+      "Tell me about DataPilot AI",
+      "Tell me about Splunk Query Assistant",
+      "What are your AI projects?",
+      "Tell me about AutolyticsAI",
+      "What hackathons have you won?"
+    ],
+    "achievements": [
+      "What are your major achievements?",
+      "Tell me about your hackathon wins",
+      "What awards have you won?",
+      "Tell me about Hacktimus 2025"
+    ],
+    "contact": [
+      "How can I reach you?",
+      "How can I contact you?",
+      "What's your email?",
+      "Where can I find you online?",
+      "Where are you located?"
+    ],
+    "fun": [
+      "What are your hobbies?",
+      "Tell me something interesting about you",
+      "What motivates you?",
+      "What's a fun fact about you?"
+    ]
+  },
+  "meta": {
+    "configVersion": "2.0",
+    "lastUpdated": "2025-11-25",
+    "generatedBy": "Arjun Pawar",
+    "description": "Portfolio configuration for Arjun Pawar - FullStack AI Engineer at Fynd, specializing in autonomous AI agents and scalable systems"
+  }
+}
