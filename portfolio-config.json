@@ -45,7 +45,7 @@
       "position": "Full Stack Engineer (Founding Engineer)",
       "type": "Internship",
       "duration": "April 2024 - May 2025",
-      "description": "Contributed as a Founding Engineer, built and scaled an AI-powered CRM from the ground up. Developed AI insights engine using RAG techniques and Gemini 2.0 Flash for real-time analysis. Designed vector database systems (ChromaDB, Milvus) for semantic search. Created cross-platform mobile app using React Native. Developed AI Notes using Meta Llama-3.3-70B to summarize sales calls and automate tasks. Built Voice-of-Customer Analytics enabling real-time business insights.",
+      "description": "Contributed as a Founding Engineer, built and scaled an AI-powered CRM from the ground up. Developed AI insights engine using RAG techniques and LangGraph for real-time analysis. Designed vector database systems (ChromaDB, Milvus) for semantic search. Created cross-platform mobile app using React Native. Developed AI Notes using Meta Llama-3.3-70B to summarize sales calls and automate tasks. Built Voice-of-Customer Analytics enabling real-time business insights.",
       "technologies": [
         "React",
         "React Native",
@@ -54,7 +54,7 @@
         "MongoDB",
         "ChromaDB",
         "Milvus",
-        "Gemini 2.0",
+        "LangGraph",
         "Llama-3.3-70B",
         "RAG",
         "Mixpanel",
@@ -115,7 +115,6 @@
     "ml_ai": [
       "LangGraph",
       "LangChain",
-      "Gemini 2.0",
       "Llama",
       "RAG",
       "Prompt Engineering",
@@ -155,7 +154,7 @@
     ],
     "soft_skills": [
       "Problem Solving",
-      "Team Leadership",
+      "Complete Ownership",
       "Innovation",
       "Collaboration",
       "Fast Learning"
@@ -169,7 +168,7 @@
       "techStack": [
         "Fynd FDK",
         "FastAPI",
-        "Gemini 2.0 Flash",
+        "LangGraph",
         "Render",
         "Boltic",
         "Node.js",
@@ -189,12 +188,12 @@
     {
       "title": "Splunk Query Assistant",
       "category": "AI/DevOps - Hackathon Winner",
-      "description": "Created a tool that translates natural language questions into Splunk queries aligned with CIM models. Enabled non-technical users to write complex queries by simply describing what they need in plain English. Used Gemini 2.0 Flash to interpret user input and dynamically construct valid Splunk queries. Packaged and deployed the app using Docker for scalability.",
+      "description": "Created a tool that translates natural language questions into Splunk queries aligned with CIM models. Enabled non-technical users to write complex queries by simply describing what they need in plain English. Used LangGraph to interpret user input and dynamically construct valid Splunk queries. Packaged and deployed the app using Docker for scalability.",
       "techStack": [
         "React",
         "FastAPI",
         "Docker",
-        "Gemini 2.0 Flash"
+        "LangGraph"
       ],
       "date": "April 2025",
       "status": "Completed",
@@ -208,14 +207,14 @@
     {
       "title": "AutolyticsAI: AI-Powered Data Analytics Platform",
       "category": "AI/Data Analytics",
-      "description": "Developed a no-code analytics solution enabling users without technical expertise to generate meaningful insights from data. Implemented natural language processing technology that converts user questions into Pandas operations for filtering, grouping, and analyzing uploaded CSV and Excel files. Created multilingual support for all Indian regional languages. Applied fine-tuned Gemini 2.0 Flash model to provide automated data summaries and actionable insights. Engineered a visualization system allowing users to represent data as bar charts, pie charts, and tables that can be saved to customizable dashboards.",
+      "description": "Developed a no-code analytics solution enabling users without technical expertise to generate meaningful insights from data. Implemented natural language processing technology that converts user questions into Pandas operations for filtering, grouping, and analyzing uploaded CSV and Excel files. Created multilingual support for all Indian regional languages. Applied fine-tuned LangGraph model to provide automated data summaries and actionable insights. Engineered a visualization system allowing users to represent data as bar charts, pie charts, and tables that can be saved to customizable dashboards.",
       "techStack": [
         "React",
         "Tailwind CSS",
         "FastAPI",
         "Pandas",
         "Python",
-        "Gemini 2.0 Flash",
+        "LangGraph",
         "Prompt Engineering"
       ],
       "date": "November 2024 - January 2025",
@@ -251,17 +250,17 @@
     "portfolio": "https://arjunpawar.tech/"
   },
   "internship": {
-    "seeking": false,
-    "duration": "Currently employed at Fynd",
-    "startDate": "N/A",
-    "preferredLocation": "Mumbai / Remote",
+    "seeking": true,
+    "duration": "Flexible - Open to full-time, freelance, and contract opportunities",
+    "startDate": "Immediate / Flexible",
+    "preferredLocation": "Mumbai / Remote / Hybrid",
     "focusAreas": [
       "AI Development",
       "Full-stack Development",
       "Autonomous AI Agents",
       "Scalable Systems"
     ],
-    "availability": "Currently working full-time",
+    "availability": "✅ Available for full-time, freelance, and contract roles",
     "workStyle": "Fast learner, innovative problem solver, experienced in building production AI systems",
     "goals": "Continue building cutting-edge AI solutions and autonomous agents that solve real-world problems at scale."
   },

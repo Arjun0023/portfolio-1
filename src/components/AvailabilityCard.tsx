@@ -62,7 +62,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/profile.jpeg"
+              src="/profile.jpg"
               alt="Arjun's avatar"
               className="h-full w-full object-cover object-[center_top_-5%] scale-95"
             />
@@ -87,7 +87,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
             Available Now
           </span>
           <p className="text-xs text-muted-foreground text-center sm:text-right">
-            Open to full-time & Freelance, Contract roles
+            Open to Full-time, Freelance & Contract roles
           </p>
         </div>
       </div>
@@ -148,10 +148,10 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
                   <li key={index}>{skill}</li>
                 )) || (
                     <>
-                      <li>Python, SQL, JavaScript, HTML/CSS</li>
-                      <li>FastAPI, Flask, Django, React.js</li>
-                      <li>Scikit-learn, XGBoost, TensorFlow, OpenCV</li>
-                      <li>OpenAI API, LangChain, LangGraph</li>
+                      <li>TypeScript, JavaScript, Python</li>
+                      <li>React, Next.js, React Native</li>
+                      <li>FastAPI, Node.js, Express.js</li>
+                      <li>LangGraph, LangChain, AI Agents</li>
                     </>
                   )}
               </ul>
@@ -160,10 +160,10 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
                   <li key={index}>{skill}</li>
                 )) || (
                     <>
-                      <li>Docker, Git, GitHub Actions, AWS</li>
-                      <li>Firebase, Heroku, ESP32, IoT</li>
-                      <li>Machine Learning, AI Agents</li>
-                      <li>Web Scraping, Automation</li>
+                      <li>LangGraph, Llama, RAG, Prompt Engineering</li>
+                      <li>MongoDB, ChromaDB, Milvus, PostgreSQL</li>
+                      <li>AWS, Docker, Kubernetes, Git</li>
+                      <li>Load Testing, Performance Engineering</li>
                     </>
                   )}
                 <li>
@@ -186,9 +186,9 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          {data?.experience.internshipCompleted || "Real-world ML experience from MookMati (Genre classification, FastAPI deployment, AWS)."} <br />
-          {data?.achievements[0] || "2nd position in Smart India Hackathon 2025 among 88,221 teams with hideFlare cybersecurity tool."} <br />
-          {data?.experience.freelanceWork || "25+ freelance automation projects delivered on Fiverr, cutting manual work by 60%."}
+          Currently building autonomous AI agents for large-scale load testing at Fynd, simulating millions of users to ensure system scalability. <br />
+          Founding Engineer at AI startup (ClickToCRM) - built AI-powered CRM from scratch using RAG, LangGraph, and vector databases (ChromaDB, Milvus). <br />
+          Winner of Codejam 2025 (Splunk Query Assistant) and Runner-up in Hacktimus 2025 (DataPilot AI) among 200+ participants.
         </p>
       </div>
 
@@ -196,7 +196,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
       <div className="mt-8">
         <p className="text-foreground mb-2 text-lg font-semibold">Goal</p>
         <p className="text-foreground text-sm">
-          {data?.lookingFor.growthOpportunities || "Looking for roles that offer learning and advancement opportunities with experienced teams."} I want to work on {data?.lookingFor.technicalChallenges || "cutting-edge technologies"} that {data?.lookingFor.impactfulWork || "solve real-world problems and make a meaningful impact"}. I'm passionate, adaptable, and ready to contribute to {data?.lookingFor.collaboration || "collaborative, innovative environments"}! 🚀
+          Looking for opportunities to build production-grade AI systems and autonomous agents that solve complex, real-world problems at scale. I want to work on cutting-edge AI/ML technologies, contribute to innovative products, and collaborate with talented teams pushing the boundaries of what's possible. I bring hands-on experience in building scalable systems, a proven track record in hackathons, and a passion for shipping impactful solutions! 🚀
         </p>
       </div>
 
