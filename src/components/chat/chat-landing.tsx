@@ -102,7 +102,7 @@ const ChatLanding: React.FC<ChatLandingProps> = ({ submitQuery, handlePresetRepl
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
             <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
           </span>
-          Available for Opportunities
+          Got an Idea? I can turn it into Production ready MVP!
         </motion.button>
       </motion.div>
 

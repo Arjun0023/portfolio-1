@@ -72,7 +72,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
               Arjun Pawar
             </h2>
             <p className="text-muted-foreground text-sm">
-              Available for Opportunities
+              Got an Idea? I can turn it into Production ready MVP!
             </p>
           </div>
         </div>
@@ -104,13 +104,13 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div>
             <p className="text-sm font-medium text-foreground mb-1">Status</p>
             <p className="text-sm text-green-600 dark:text-green-400 font-semibold">
-              {data?.availability || "✅ Available for immediate start"}
+              {data?.availability || "✅ Available for Freelance & Contract roles"}
             </p>
           </div>
           <div>
             <p className="text-sm font-medium text-foreground mb-1">Looking for</p>
             <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">
-              Full-time roles, Freelance, Contract work
+              Part-time roles, Freelance, Contract work
             </p>
           </div>
         </div>
