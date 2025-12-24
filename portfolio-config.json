@@ -162,6 +162,68 @@
   },
   "projects": [
     {
+      "title": "Ratl.ai - Autonomous AI Agents Platform",
+      "category": "AI/Autonomous Agents",
+      "description": "Building autonomous AI agents for large-scale load testing at Fynd, simulating millions of users to ensure system scalability. Developing agentic flows that perform comprehensive performance testing across products, identifying bottlenecks and ensuring reliability under real-world traffic scenarios. Enhancing product stability by proactively testing systems with intelligent agent-based simulations.",
+      "techStack": [
+        "AI Agents",
+        "LangGraph",
+        "Python",
+        "Load Testing",
+        "Performance Engineering",
+        "Scalability Testing"
+      ],
+      "date": "July 2025 - Present",
+      "status": "Ongoing",
+      "featured": true,
+      "links": [
+        {
+          "name": "Visit Ratl.ai",
+          "url": "https://www.ratl.ai/"
+        }
+      ],
+      "images": [
+        {
+          "src": "/ratl-logo.png",
+          "alt": "Ratl.ai Logo"
+        }
+      ]
+    },
+    {
+      "title": "ClickToCRM - AI-Powered CRM Platform",
+      "category": "AI/SaaS - Founding Engineer",
+      "description": "Contributed as a Founding Engineer at a stealth AI startup, built and scaled an AI-powered CRM from the ground up. Developed AI insights engine using RAG techniques and LangGraph for real-time analysis. Designed vector database systems (ChromaDB, Milvus) for semantic search. Created cross-platform mobile app using React Native. Developed AI Notes using Meta Llama-3.3-70B to summarize sales calls and automate tasks. Built Voice-of-Customer Analytics enabling real-time business insights.",
+      "techStack": [
+        "React",
+        "React Native",
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "ChromaDB",
+        "Milvus",
+        "LangGraph",
+        "Llama-3.3-70B",
+        "RAG",
+        "Mixpanel",
+        "Salesforce API"
+      ],
+      "date": "April 2024 - May 2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [
+        {
+          "name": "Visit RevenueGear",
+          "url": "https://www.revenuegear.tech/"
+        }
+      ],
+      "images": [
+        {
+          "src": "/clicktocrm-logo.png",
+          "alt": "ClickToCRM Logo"
+        }
+      ]
+    },
+    {
       "title": "DataPilot AI",
       "category": "AI/Data Analytics - Hackathon Winner",
       "description": "Built an AI-powered data assistant for Fynd sellers, enabling users to ask questions in natural language and receive instant insights. Automatically generated charts and dashboards in real time based on seller data without requiring BI tool expertise. Empowered users to make data-driven decisions through conversation-like interactions. Achieved runner-up position among 200+ participants in Hacktimus 2025.",

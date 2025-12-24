@@ -11,7 +11,7 @@ const PROJECT_CONTENT = config.projects;
 // ProjectContent component - now uses config data
 const ProjectContent = ({ project }: { project: { title: string } }) => {
   const projectData = PROJECT_CONTENT.find(p => p.title === project.title);
-  
+
   if (!projectData) return null;
 
   return (
@@ -27,7 +27,7 @@ const ProjectContent = ({ project }: { project: { title: string } }) => {
             <p className="text-muted-foreground text-sm">{projectData.date}</p>
           </div>
         </div>
-        
+
         <p className="text-muted-foreground leading-relaxed">
           {projectData.description}
         </p>
@@ -39,16 +39,15 @@ const ProjectContent = ({ project }: { project: { title: string } }) => {
           {projectData.status && (
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium">Status:</span>
-              <span className={`text-sm px-2 py-1 rounded-full ${
-                projectData.status === 'Completed' ? 'bg-green-100 text-green-800' :
-                projectData.status === 'Ongoing' ? 'bg-blue-100 text-blue-800' :
-                'bg-gray-100 text-gray-800'
-              }`}>
+              <span className={`text-sm px-2 py-1 rounded-full ${projectData.status === 'Completed' ? 'bg-green-100 text-green-800' :
+                  projectData.status === 'Ongoing' ? 'bg-blue-100 text-blue-800' :
+                    'bg-gray-100 text-gray-800'
+                }`}>
                 {projectData.status}
               </span>
             </div>
           )}
-          
+
           {projectData.achievements && (
             <div>
               <h4 className="font-medium mb-1">Achievements</h4>
@@ -59,7 +58,7 @@ const ProjectContent = ({ project }: { project: { title: string } }) => {
               </ul>
             </div>
           )}
-          
+
           {projectData.metrics && (
             <div>
               <h4 className="font-medium mb-1">Key Metrics</h4>
@@ -144,5 +143,6 @@ export const data = projectData.map(project => ({
   category: project.category,
   title: project.title,
   src: project.src,
+  hasImage: project.hasImage,
   content: <ProjectContent project={{ title: project.title }} />,
 }));

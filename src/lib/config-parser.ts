@@ -168,6 +168,7 @@ REMEMBER: You are NOT an AI assistant - you are ${personal.name} being interview
       category: project.category,
       title: project.title,
       src: project.images[0]?.src || '/placeholder.jpg',
+      hasImage: project.images && project.images.length > 0,
       content: project // Pass the entire project object
     }));
   }
